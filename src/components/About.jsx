@@ -31,7 +31,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[16px] max-w-3xl leading-[30px]'>
-      UI/UX designer with 1+ year experience for web and mobile app with a passion for design thinking and creative problem-solving. Expertise in creating user-centered design that are both functional and visually appealing. Dedicated to designing solutions that meet the needs of both users and businesses. Also have a solid understanding of coding and front-end development, especially for web development with HTML, CSS, and React JS.
+      I'm an UI/UX designer with 1+ year experience for web and mobile app development with a passion for design thinking and creative problem-solving. Expertise in creating user-centered design that are both functional and visually appealing. Dedicated to designing solutions that meet the needs of both users and businesses. Also have a solid understanding of coding and front-end development, especially for web development with HTML, CSS, and React JS.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
