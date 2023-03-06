@@ -4,23 +4,22 @@ import {
     graphic,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
+    photoshop,
+    illustrator,
+    premiere,
     aviana,
     cuscapi,
     carrent,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -44,10 +43,6 @@ import {
       icon: uiux,
     },
     {
-      title: "Web Develoment",
-      icon: web,
-    },
-    {
       title: "User Research & Testing",
       icon: research,
     },
@@ -55,9 +50,29 @@ import {
       title: "Graphic Design",
       icon: graphic,
     },
+    {
+      title: "Web Develoment",
+      icon: web,
+    },
   ];
   
   const technologies = [
+    {
+      name: "figma",
+      icon: figma,
+    },
+    {
+      name: "Adobe Photoshop",
+      icon: photoshop,
+    },
+    {
+      name: "Adobe Illustrator",
+      icon: illustrator,
+    },
+    {
+      name: "Adobe Premiere Pro",
+      icon: premiere,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -71,16 +86,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -95,20 +102,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
