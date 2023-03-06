@@ -17,9 +17,9 @@ import {
     premiere,
     aviana,
     cuscapi,
-    carrent,
-    jobit,
-    tripguide,
+    waiterapp,
+    pelaga,
+    hale,
   } from "../assets";
   
   export const navLinks = [
@@ -166,67 +166,55 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "E-Waiter App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "E-waiter is a mobile app for recording customer orders effectively to the kitchen without write it on paper and sent the data immediately to POS system in restaurant businesses. This project focused on redesigning the old UI for better look and user experience.",
       tags: [
         {
-          name: "react",
+          name: "UI/UX Design",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Mobile App Design",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: waiterapp,
+      source_code_link: "https://www.behance.net/gallery/161132487/Waiter-Mobile-App-Redesign-Ewaiter",
     },
     {
-      name: "Job IT",
+      name: "Pelaga Eco Park",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Pelaga Eco Park is a recreation spot that contains culinary restaurants and camping ground that offer a refreshing experience in nature located in Badung, Bali. Currently, they want to grow their business with a digital presence with a website to attract more visitors.",
       tags: [
         {
-          name: "react",
+          name: "UI/UX Design",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Website Design",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: pelaga,
+      source_code_link: "https://www.behance.net/gallery/160209769/Eco-tourism-Spot-Website-Landing-Page-Design",
     },
     {
-      name: "Trip Guide",
+      name: "Hale E-Commerce",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Hale is a skincare company dedicated to providing simple, safe, effective, and reasonably priced skincare product. The primary goal for the website is to increase revenue through online transactions and provide a unique and innovative shopping experience.",
       tags: [
         {
-          name: "nextjs",
+          name: "UI/UX Design",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Website Design",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: hale,
+      source_code_link: "https://www.behance.net/gallery/163143365/Skincare-E-commerce-Website-Design",
     },
   ];
   
